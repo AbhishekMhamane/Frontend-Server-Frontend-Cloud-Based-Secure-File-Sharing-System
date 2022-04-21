@@ -1,0 +1,22 @@
+{
+  "name": "proxy-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "set PORT=3001 && nodemon app.js"
+  },
+  "author": "Abhishek Mhamane",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "express-http-proxy": "^1.6.3",
+    "helmet": "^5.0.2",
+    "mcl-wasm": "^1.0.2",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.15"
+  }
+}
