@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "set PORT=3001 && nodemon app.js"
+    "start": "nodemon app.js"
   },
   "author": "Abhishek Mhamane",
   "license": "ISC",
